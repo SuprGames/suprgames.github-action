@@ -1,0 +1,8 @@
+name: 'Serverless + Java8'
+description: 'This actions wraps the latest version of Serverless Framework with Java8'
+branding:
+  icon: 'zap'
+  color: 'orange'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
