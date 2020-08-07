@@ -1,5 +1,15 @@
 FROM node:12-slim
 
+LABEL version="1.0.0"
+LABEL repository="https://github.com/SuprGames/suprgames.serverless-java-action"
+LABEL homepage="https://github.com/SuprGames/suprgames.serverless-java-action"
+LABEL maintainer="Diego Marzo"
+
+LABEL "com.github.actions.name"="Serverless + Java8"
+LABEL "com.github.actions.description"="This actions wraps the latest version of Serverless Framework with Java8"
+LABEL "com.github.actions.icon"="zap"
+LABEL "com.github.actions.color"="orange"
+
 RUN npm i -g serverless@1.77
 
 # Install OpenJDK-8
