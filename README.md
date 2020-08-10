@@ -1,5 +1,7 @@
-# suprgames.github-action
-Dockerfile that defines an image with the following set up:
+# suprgames.serverless-java-container
+
+Repository for Docker Image definition 
+
 * Java 8
 * Node 12
 * Serverless 1.77
